@@ -1,0 +1,205 @@
+header{
+	position:absolute;
+	top: 0;
+	left:0;
+	height: 10%;
+	width:100%;
+	background-color: #24292e;
+}
+
+body{
+	background-image: url("https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg");
+	
+	background-color: #2b3137;
+	z-index: 100;
+}
+
+
+.head{
+	position: absolute;
+	text-align: center;
+	left: 10%;
+}
+
+.selects{
+	background-color: #24292e;
+	border: 0;
+	font-size: 14px;
+	color: white;
+	width: 105px;
+	line-height: 16px;
+}
+
+#select2{
+	width: 70px;
+}
+
+#select3{
+	width: 70px;
+}
+
+.hid{
+	text-decoration: none;
+	font-size: 16px;
+	color:white;
+	font-family: serif;
+}
+
+
+#search{
+	position: relative;
+	left: 50%;
+	background-color: #3f4448;
+	color:#86898c;
+	width: 20%;
+	height: 30%;
+	border-radius: 2px;
+	border:0;
+	padding: 6px 16px;
+
+}
+
+#sign{
+	position: relative;
+	left: 50%;
+}
+
+#up{
+	position: relative;
+	left: 50%;
+    background-color: #24292e;
+    color: white;
+    border-radius: 3px;
+
+    border: 1px solid white;
+}
+
+
+.split{
+	position: absolute;
+	top: 10%;
+	width: 50%;
+	height:100%;
+}
+
+
+.left{
+	position: absolute;
+	left: 0;
+}
+
+.abz{
+	position: absolute;
+	left:30%;
+	top:20%;
+
+}
+
+.right{
+	position: absolute;
+	right: 0;
+}
+
+.ab{
+	position: absolute;
+	left: 10%;
+
+	background-color: #fff;
+	border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+
+	width: 60%;
+	height: 67%;
+	top: 5%;
+	position: relative;
+	border-width: 15px;
+	border-color: white;
+	border-radius: 5px;
+}
+
+
+.text{
+	position: relative;
+	display: block;
+	border-radius: 5px;
+	padding: 3px 16px;
+
+	margin-bottom: 0px;
+
+	font-size: 13px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	background-color: #fafafa;
+	line-height: 30px;
+
+	border: 1px solid #d1d5da;
+	width: 100%;
+	top: 3%;
+}
+
+.lab{
+	position: relative;
+	top: 3%;
+
+	margin-right: 0;
+	margin-bottom: 0;
+	font-size: 16px!important;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+#not{
+	font-size: 12px;
+	position: relative;
+	top: 3%;
+	font-family: sans-serif;
+	float: center;
+	color: #6a737d;
+}
+
+
+#btn{
+	background-color: #28a745;
+    border: 0;
+    width: 100%;
+    text-align: center;
+	border-radius: 5px;
+	position: relative;
+	height: 15%;
+	top: 10%;
+
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10%;
+	    font: 400 13.3333px Arial;
+
+	padding: 6px 16px;
+}
+
+#last{
+	position: relative;	text-align: center;
+	margin-top: 10%;
+	font-family: sans-serif;
+	font-size: 12px;
+    color: #6a737d;
+}
+
+h1{
+	font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 600;
+    font-size: 64px!important;
+    color: white;
+    margin-bottom: 16px!;
+    line-height: 1;
+}
+
+h3{
+    font-size: 20px!important;
+    color: #aaada7;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 400;
+    line-height: 1.5;
+
+
+}
