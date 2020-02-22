@@ -1,0 +1,36 @@
+<div class = "product">
+
+  <div class = "product-image">
+    <img src="{{product.image}}" alt="">
+  </div>
+
+  <div class="product-details">
+    <h3 class = "product-details__name" >
+      <a [title]="product.name + ' details'" href="{{product.link}}" target="_blank">
+        {{ product.name }}
+      </a>
+    </h3>
+      <div id = "rating-price">
+    <p *ngIf="product.price" class="product-details__price">
+      {{ product.price}}
+    </p>
+
+    <p *ngIf="product.rating">
+      Rating: {{ product.rating }}
+    </p>
+      </div>
+
+      <p id = "pdes" *ngIf="product.description">
+        {{ product.description }}
+      </p>
+  </div>
+
+
+  <div class="product-actions">
+    <a href="https://telegram.me/share/url?url={{product.link}}&text=Hey!">
+      <button (click)="share()" class = "product-actions__share">
+      <img id = "share" src="https://img.icons8.com/flat_round/64/000000/share--v1.png">
+    </button>
+    </a>
+  </div>
+</div>
