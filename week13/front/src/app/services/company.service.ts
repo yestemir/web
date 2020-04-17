@@ -19,14 +19,6 @@ export class CompanyService {
     return this.http.get<Company[]>(`${this.BASE_URL}/api/companies/`);
   }
 
-  getCompany(id): Observable<Company> {
-    return this.http.get<Company>(`${this.BASE_URL}/api/companies${id}/`);
-  }
-
-  deleteCompany(id): Observable<any> {
-    return this.http.delete(`${this.BASE_URL}/api/companies/${id}/`);
-  }
-
   getVacancyList(id): Observable<Vacancy[]> {
     return this.http.get<Vacancy[]>(`${this.BASE_URL}/api/companies/${id}/vacancies/`);
   }

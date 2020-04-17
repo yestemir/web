@@ -7,7 +7,7 @@ import {CompanyService} from './services/company.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'servicesGroup2';
+  title = 'Front';
 
   logged = false;
 
