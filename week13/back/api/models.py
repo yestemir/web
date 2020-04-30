@@ -1,3 +1,4 @@
+from django.core.validators import FileExtensionValidator
 from django.db import models
 
 
@@ -19,3 +20,10 @@ class Vacancy(models.Model):
     def __str__(self):
         return f'Vacancies id={self.id}, name={self.name}'
 
+
+class Files(models.Model):
+  name = models.CharField(max_length=500)
+  file = models.FileField(upload_to='files/',
+                          validators=[FileExtensionValidator(allowed_extensions=
+                                                             ['pdf'])],
+                          blank=True, null=True, verbose_name="")
